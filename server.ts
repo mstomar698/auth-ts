@@ -24,7 +24,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
   cors({
-    origin: ['https://auth-ts-frontend.vercel.app', 'https://ide-main.vercel.app', 'http://localhost:3000'],
+    origin: [
+      'https://auth-ts-frontend.vercel.app',
+      'https://ide-main.vercel.app',
+      'https://universal-ide.vercel.app',
+      'http://localhost:3000',
+    ],
     credentials: true,
   })
 );
