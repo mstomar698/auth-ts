@@ -29,6 +29,7 @@ app.use(
       'https://ide-main.vercel.app',
       'https://universal-ide.vercel.app',
       'http://localhost:3000',
+      'https://code-stack.vercel.app'
     ],
     credentials: true,
   })
